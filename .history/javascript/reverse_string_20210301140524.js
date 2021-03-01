@@ -1,12 +1,10 @@
-// way #1 (built in reverse)
-function reverseString(str) {
-  const splitString = str.split(""); {
-    return splitString.reverse() 
-  }
-}
+// function reverseString(str) {
+//   const splitString = str.split(""); {
+//     return splitString.reverse() 
+//   }
+// }
 
-// way #2 (for loop)
-console.log(reverseString(`hello`))
+// console.log(reverseString(`hello`))
 
 function reverseString(str) {
   let bigReverseString = "";

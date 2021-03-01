@@ -1,24 +1,7 @@
-// way #1 (built in reverse)
 function reverseString(str) {
-  const splitString = str.split(""); {
-    return splitString.reverse() 
-  }
+  // type your code here
 }
 
-// way #2 (for loop)
-console.log(reverseString(`hello`))
-
-function reverseString(str) {
-  let bigReverseString = "";
-  for (i=str.length -1; i >= 0; i--) {
-    bigReverseString = bigReverseString + str[i];
-  }
-  return bigReverseString;
-}
-
-console.log (reverseString(`hello`))
-
- 
 if (require.main === module) {
   // add your own tests in here
   console.log("Expecting: 'ih'");
